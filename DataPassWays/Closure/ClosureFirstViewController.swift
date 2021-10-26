@@ -17,7 +17,7 @@ class ClosureFirstViewController: UIViewController {
     }
     
     
-    @IBAction func calculateMyAge(_ sender: Any) {
+    @IBAction func showSecondVC(_ sender: Any) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         if let nextVC = storyBoard.instantiateViewController(withIdentifier: "ClosureSecondViewController") as? ClosureSecondViewController {
             nextVC.completionHandler = { [weak self] in

@@ -146,10 +146,10 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Calculate My Age">
-                                    <color key="titleColor" red="0.84705882349999995" green="0.086274509799999996" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="showMyAge:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="jPY-er-m9g"/>
+                                    <action selector="showSecondVC:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="jPY-er-m9g"/>
                                     <action selector="showSecondVC:" destination="Ayc-6P-VRi" eventType="touchUpInside" id="sVZ-hz-PPV"/>
                                 </connections>
                             </button>
@@ -198,11 +198,11 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Calculate My Age">
-                                    <color key="titleColor" red="0.84705882349999995" green="0.086274509799999996" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
                                     <action selector="sendDataBackScreen:" destination="3bE-s3-Ae3" eventType="touchUpInside" id="XjZ-Bm-lC0"/>
-                                    <action selector="showMyAge:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="ah6-tN-S1U"/>
+                                    <action selector="showSecondVC:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="ah6-tN-S1U"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -243,11 +243,11 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Calculate My Age">
-                                    <color key="titleColor" red="0.84705882349999995" green="0.086274509799999996" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="calculateMyAge:" destination="Cad-JL-OR3" eventType="touchUpInside" id="79M-QX-cVp"/>
-                                    <action selector="showMyAge:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="Hjx-an-fMC"/>
+                                    <action selector="showSecondVC:" destination="Cad-JL-OR3" eventType="touchUpInside" id="79M-QX-cVp"/>
+                                    <action selector="showSecondVC:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="Hjx-an-fMC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -319,11 +319,11 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Calculate My Age">
-                                    <color key="titleColor" red="0.84705882349999995" green="0.086274509799999996" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="calculateMyAge:" destination="JKP-v5-Ihd" eventType="touchUpInside" id="9wk-Lp-EQj"/>
-                                    <action selector="showMyAge:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="f8L-pU-6bs"/>
+                                    <action selector="showSecondVC:" destination="JKP-v5-Ihd" eventType="touchUpInside" id="9wk-Lp-EQj"/>
+                                    <action selector="showSecondVC:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="f8L-pU-6bs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -392,11 +392,11 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Calculate My Age">
-                                    <color key="titleColor" red="0.84705882349999995" green="0.086274509799999996" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="passDataToNextVC:" destination="YaH-QP-UtA" eventType="touchUpInside" id="Blt-SJ-uJY"/>
-                                    <action selector="showMyAge:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="VhZ-7l-aY5"/>
+                                    <action selector="showSecondVC:" destination="YaH-QP-UtA" eventType="touchUpInside" id="Blt-SJ-uJY"/>
+                                    <action selector="showSecondVC:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="VhZ-7l-aY5"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Your Year Of Birth:" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ScA-nA-F1X">
@@ -473,10 +473,10 @@
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <state key="normal" title="Calculate My Age">
-                                    <color key="titleColor" red="0.84705882349999995" green="0.086274509799999996" blue="0.062745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="showMyAge:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="KZM-4p-Fnk"/>
+                                    <action selector="showSecondVC:" destination="UEA-vM-7Kd" eventType="touchUpInside" id="KZM-4p-Fnk"/>
                                 </connections>
                             </button>
                         </subviews>

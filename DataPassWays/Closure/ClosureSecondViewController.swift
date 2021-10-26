@@ -16,11 +16,10 @@ class ClosureSecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        prepareResultLabel()
+        calculateMyAge()
     }
     
-    
-    private func prepareResultLabel(){
+    private func calculateMyAge(){
         let result = completionHandler?()
         
         if result != "", let intYear = Int(result!) {

@@ -16,7 +16,7 @@ class NotificationFirstViewController: UIViewController {
         super.viewDidLoad()
     }
     
-    @IBAction func passDataToNextVC(_ sender: Any) {
+    @IBAction func showSecondVC(_ sender: Any) {
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         if let nextVC = storyBoard.instantiateViewController(withIdentifier: "NotificationSecondViewController") as? NotificationSecondViewController {
             nextVC.createNotificationObserver()

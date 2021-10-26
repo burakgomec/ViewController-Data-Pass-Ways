@@ -19,7 +19,6 @@ class SingletonSecondViewController: UIViewController {
         calculateMyAge()
     }
     
-    
     private func calculateMyAge(){
         guard let myYearOfBirth = Singleton.shared.year else { return resultLabel.text = "Please enter valid year number"}
         let age = nowYear - myYearOfBirth

@@ -16,7 +16,7 @@ class SegueFirstViewController: UIViewController {
         
     }
     
-    @IBAction func calculateMyAge(_ sender: Any) {
+    @IBAction func showSecondVC(_ sender: Any) {
         self.performSegue(withIdentifier: "passDataIdentifier", sender: nil)
     }
     
