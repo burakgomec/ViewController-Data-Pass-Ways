@@ -18,14 +18,14 @@ class SingletonFirstViewController: UIViewController {
     }
     
     @IBAction func showSecondVC(_ sender: Any) {
+        if let year = yearTextField.text{
+            Singleton.shared.year = Int(year)
+        }
+        
         let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
         if let nextVC = storyBoard.instantiateViewController(withIdentifier: "SingletonSecondViewController") as? SingletonSecondViewController {
             navigationController?.pushViewController(nextVC, animated: true)
         }
-        
-        guard let year = yearTextField.text else { return }
-        Singleton.shared.year = Int(year)
-        
     }
     
 }
